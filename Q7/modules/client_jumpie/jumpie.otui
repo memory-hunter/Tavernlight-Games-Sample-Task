@@ -1,0 +1,11 @@
+MainWindow
+  !text: tr('Jumpie')
+  size: 300 300
+
+  Label
+    id: jumpieLabel
+
+  Button
+    id: jumpieInsideButton
+    !text: tr('Jump!!!')
+    @onClick: modules.client_jumpie.placeButtonRandomly()

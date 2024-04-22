@@ -1,0 +1,12 @@
+Module
+  name: client_jumpie
+  description: Display a window jumpie
+  author: memoryhunter
+  website: www.test.info 
+  sandboxed: true
+  scripts: [ jumpie ]
+  dependencies: [ client_topmenu ]
+  autoload: true
+  autoload-priority: 1000
+  @onLoad: init()
+  @onUnload: terminate()
