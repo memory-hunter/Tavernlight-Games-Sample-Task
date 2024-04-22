@@ -132,7 +132,8 @@ I conveniently used a tool called [SpellCreator](https://otland.net/threads/spel
 
 Here is the animation:
 
-<video controls src="Tavernlight%20Games%20Sample%20Task-media/8e913e36dbc4855fa6713d9db9596e67f52f7e88.mp4"></video>
+https://github.com/memory-hunter/Tavernlight-Games-Sample-Task/assets/59766692/2b8f0918-b9b5-4207-a74a-35209de900a2
+
 
 ### Q6
 ###### TODO
@@ -191,7 +192,7 @@ local maxClampY = windowY + windowHeight - buttonHeight - 16
 
 And the `@onClick` function which I defined updates the button position within the window! Jumping works!
 
-<video controls src="Tavernlight%20Games%20Sample%20Task-media/8a91eaadf985553646873ca0ad98aeb0425e8a7b.mp4"></video>
+https://github.com/memory-hunter/Tavernlight-Games-Sample-Task/assets/59766692/5ef42cc8-4c87-45cf-8d26-b022ef6ddfc3
 
 Now, for the last part of the animation, I have to keep the button moving to the left every few milliseconds. I will probably use a timing based thing just like in the spells (some sort of a scheduling function) to move the button horizontally.
 
@@ -199,4 +200,4 @@ After searching a bit, `scheduleEvent()` seems to be the function I'll use. In t
 
 Et, volia! We have finally finished the question task, and it's working as intended.
 
-<video controls src="Tavernlight%20Games%20Sample%20Task-media/82f444db90b689e0131c421effdbb50c94f3525b.mp4"></video>
+https://github.com/memory-hunter/Tavernlight-Games-Sample-Task/assets/59766692/a8c3fe6e-8f74-4127-baa9-c361094db884
